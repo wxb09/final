@@ -5,6 +5,5 @@ matplotlib==3.7.5
 pandas==2.0.3
 plotly==5.24.1
 pyecharts==2.0.7
-pygal==3.0.5
 Requests==2.32.3
 streamlit==1.40.1
