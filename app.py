@@ -77,9 +77,8 @@ import seaborn as sns
 def create_matplotlib_sie_chart(word_counts):
     labels = list(word_counts.keys())
     sizes = list(word_counts.values())
-    colors = sns.color_palette("pastel")  # 使用Seaborn的颜色
     plt.figure(figsize=(8, 8))
-    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+    plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140)
     plt.title('词频分布 - Matplotlib')
     return plt
 
